@@ -4,14 +4,19 @@
     margin: 0;
     box-sizing: border-box;
 }
-body{
-    padding: 80px 25px 10px 25px;
+body{ 
     font-family: 'Roboto', 'sans-serif';
+    /* padding: 80px 0px 10px 0px; */
+    /* min-height: 100vh; */
+    /* height: 100vh; */
+}
+.bg-image{
+    padding: 80px 25px 10px 25px;
     background-image: url(./img/music-bg.jpg), url(https://skyssar.github.io/husua-website-html-css-js-php/img/music-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #4096ee;
-    /* height: 100vh; */
+    height: 100vh;
 }
 
 /* Navbar styles */
@@ -101,7 +106,8 @@ ul.nav-menu{
 
 /* footer */
 .footer{
-    /* margin-top: 35px; */
+    margin-top: 15px;
+    font-size: small;
     color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
