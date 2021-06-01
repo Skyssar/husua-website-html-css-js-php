@@ -7,7 +7,7 @@
 body{
     padding: 80px 25px 10px 25px;
     font-family: 'Roboto', 'sans-serif';
-    background-image: url(img/music-bg.jpg);
+    background-image: url(./img/music-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #4096ee;
